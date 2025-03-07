@@ -14,7 +14,7 @@ export class YourWebComponent extends LitElement {
   render() {
     return html`
       <h2>${this.title}, Number: ${this.counter}!</h2>
-      <button @click=${this.increment}>increment</button>
+      <button @click=${this.increment}>+ increment</button>
       <slot name="my-slot"> </slot>
     `;
   }
